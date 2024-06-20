@@ -23,8 +23,8 @@ public class DesafioSalarioBeneficio {
         
 
         float saida = valorSalario - valorImposto + valorBeneficios;
-            System.out.println("O valor é " + , saida));
-    String.format("%.2f"
+            System.out.println(String.format("%.1f", saida));
+  
        leitorDeEntradas.close();   
     }
   
